@@ -66,3 +66,16 @@ input:checked ~ .tab-content {
   max-height: 100vh;
   padding: 1em;
 }
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 15px;
+}
+.span-col-2{grid-column: span 2 / auto;}
+
+.span-col-3{grid-column: span 3 / auto;}
+
+.span-row-30{grid-row: span 30 / auto;
+border: 1px solid red;}
