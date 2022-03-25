@@ -1,65 +1,66 @@
 input {
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
 }
 .tabs {
-    border-radius: 8px;
-    overflow: hidden;
-    /* box-shadow: 0 5px 10px rgb(0 0 0 / 15%); */
-
+  border-radius: 8px;
+  overflow: hidden;
+  /* box-shadow: 0 5px 10px rgb(0 0 0 / 15%); */
 }
 .tab {
-    width: 100%;
-    color: #6C6C6C;
-    overflow: hidden;
+  width: 100%;
+  color: #6c6c6c;
+  overflow: hidden;
 }
 .tab-label {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-    /* background: #C7C7C7; */
-    font-weight: bold;
-    cursor: pointer;
-   /* Icon */
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  /* background: #C7C7C7; */
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 1px solid #abd373;
+ 
+  /* Icon */
 }
 .tab-label:hover {
-    background: #FFFFFF;
+  background: #ffffff;
 }
 .tab-label::after {
-    content: "\276F";
-    width: 1em;
-    height: 1em;
-    text-align: center;
-    transition: all 0.35s;
-    color: #ABD373;
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+  /* color: #ABD373; */
 }
 .tab-content {
-    max-height: 0;
-    padding: 0 1em;
-    color: #2c3e50;
-    background: white;
-    transition: all 0.35s;
+  max-height: 0;
+  padding: 0 1em;
+  color: #2c3e50;
+  background: white;
+  transition: all 0.35s;
 }
 .tab-close {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1em;
-    font-size: 0.75em;
-    background: #2c3e50;
-    cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #2c3e50;
+  cursor: pointer;
 }
 .tab-close:hover {
-    background: #1a252f;
+  background: #1a252f;
 }
 
 input:checked + .tab-label {
-    background: #FFFFFF;
+  background: #ffffff;
 }
 input:checked + .tab-label::after {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 input:checked ~ .tab-content {
-    max-height: 100vh;
-    padding: 1em;
+  max-height: 100vh;
+  padding: 1em;
 }
