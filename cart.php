@@ -1,3 +1,7 @@
+<?php
+include('bd.php');
+?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -7,8 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Pronia - Blog Detail</title>
     <meta name="robots" content="index, follow" />
-    <meta name="description"
-        content="Pronia plant store bootstrap 5 template is an awesome website template for any home plant shop.">
+    <meta name="description" content="Pronia plant store bootstrap 5 template is an awesome website template for any home plant shop.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
@@ -76,15 +79,12 @@
                                 <div class="header-right">
                                     <ul>
                                         <li>
-                                            <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal"
-                                                data-bs-target="#exampleModal">
+                                            <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="pe-7s-search"></i>
                                             </a>
                                         </li>
                                         <li class="dropdown d-none d-lg-block">
-                                            <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button"
-                                                id="settingButton" data-bs-toggle="dropdown" aria-label="setting"
-                                                aria-expanded="false">
+                                            <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button" id="settingButton" data-bs-toggle="dropdown" aria-label="setting" aria-expanded="false">
                                                 <i class="pe-7s-users"></i>
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="settingButton">
@@ -164,15 +164,12 @@
                                 <div class="header-right">
                                     <ul>
                                         <li>
-                                            <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal"
-                                                data-bs-target="#exampleModal">
+                                            <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="pe-7s-search"></i>
                                             </a>
                                         </li>
                                         <li class="dropdown d-none d-lg-block">
-                                            <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button"
-                                                id="stickysettingButton" data-bs-toggle="dropdown" aria-label="setting"
-                                                aria-expanded="false">
+                                            <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button" id="stickysettingButton" data-bs-toggle="dropdown" aria-label="setting" aria-expanded="false">
                                                 <i class="pe-7s-users"></i>
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="stickysettingButton">
@@ -211,8 +208,7 @@
 
 
                                 <li class="dropdown">
-                                    <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button"
-                                        id="settingButtonTwo" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button" id="settingButtonTwo" data-bs-toggle="dropdown" aria-expanded="false">
                                         <i class="pe-7s-users"></i>
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="settingButtonTwo">
@@ -254,9 +250,7 @@
                 <div class="modal-dialog modal-fullscreen">
                     <div class="modal-content modal-bg-dark">
                         <div class="modal-header">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                                data-tippy="Close" data-tippy-inertia="true" data-tippy-animation="shift-away"
-                                data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" data-tippy="Close" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                             </button>
                         </div>
                         <div class="modal-body">
@@ -264,9 +258,7 @@
                                 <span class="searchbox-info">Start typing and press Enter to search or ESC to
                                     close</span>
                                 <form action="#" class="hm-searchbox">
-                                    <input type="text" name="Search..." value="Search..."
-                                        onblur="if(this.value==''){this.value='Search...'}"
-                                        onfocus="if(this.value=='Search...'){this.value=''}" autocomplete="off">
+                                    <input type="text" name="Search..." value="Search..." onblur="if(this.value==''){this.value='Search...'}" onfocus="if(this.value=='Search...'){this.value=''}" autocomplete="off">
                                     <button class="search-btn" type="submit" aria-label="searchbtn">
                                         <i class="pe-7s-search"></i>
                                     </button>
@@ -281,19 +273,13 @@
                     <div class="minicart-content">
                         <div class="minicart-heading">
                             <h4 class="mb-0">Shopping Cart</h4>
-                            <a href="#" class="button-close"><i class="pe-7s-close" data-tippy="Close"
-                                    data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50"
-                                    data-tippy-arrow="true" data-tippy-theme="sharpborder"></i></a>
+                            <a href="#" class="button-close"><i class="pe-7s-close" data-tippy="Close" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i></a>
                         </div>
                         <ul class="minicart-list">
                             <li class="minicart-product">
-                                <a class="product-item_remove" href="#"><i class="pe-7s-close" data-tippy="Remove"
-                                        data-tippy-inertia="true" data-tippy-animation="shift-away"
-                                        data-tippy-delay="50" data-tippy-arrow="true"
-                                        data-tippy-theme="sharpborder"></i></a>
+                                <a class="product-item_remove" href="#"><i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i></a>
                                 <a href="single-product-variable.html" class="product-item_img">
-                                    <img class="img-full" src="assets/images/product/small-size/2-1-70x78.png"
-                                        alt="Product Image">
+                                    <img class="img-full" src="assets/images/product/small-size/2-1-70x78.png" alt="Product Image">
                                 </a>
                                 <div class="product-item_content">
                                     <a class="product-item_title" href="single-product-variable.html">American
@@ -302,13 +288,9 @@
                                 </div>
                             </li>
                             <li class="minicart-product">
-                                <a class="product-item_remove" href="#"><i class="pe-7s-close" data-tippy="Remove"
-                                        data-tippy-inertia="true" data-tippy-animation="shift-away"
-                                        data-tippy-delay="50" data-tippy-arrow="true"
-                                        data-tippy-theme="sharpborder"></i></a>
+                                <a class="product-item_remove" href="#"><i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i></a>
                                 <a href="single-product-variable.html" class="product-item_img">
-                                    <img class="img-full" src="assets/images/product/small-size/2-2-70x78.png"
-                                        alt="Product Image">
+                                    <img class="img-full" src="assets/images/product/small-size/2-2-70x78.png" alt="Product Image">
                                 </a>
                                 <div class="product-item_content">
                                     <a class="product-item_title" href="single-product-variable.html">Black Eyed
@@ -318,13 +300,10 @@
                             </li>
                             <li class="minicart-product">
                                 <a class="product-item_remove" href="#">
-                                    <i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true"
-                                        data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true"
-                                        data-tippy-theme="sharpborder"></i>
+                                    <i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i>
                                 </a>
                                 <a href="single-product-variable.html" class="product-item_img">
-                                    <img class="img-full" src="assets/images/product/small-size/2-3-70x78.png"
-                                        alt="Product Image">
+                                    <img class="img-full" src="assets/images/product/small-size/2-3-70x78.png" alt="Product Image">
                                 </a>
                                 <div class="product-item_content">
                                     <a class="product-item_title" href="single-product-variable.html">Bleeding Heart</a>
@@ -346,14 +325,21 @@
             <div class="global-overlay"></div>
         </header>
         <!-- Main Header Area End Here -->
-
+        <?php
+        while ($row = $results->fetch_assoc()) {
+            if ($row['id'] === $_GET['id']) {
+                echo "<p>{$row['name']}</p>
+                <p>{$row['description']}</p>
+                <video src='{$row['path']}' controls autoplay></video>";
+            }
+        };
+        ?>
         <!-- Begin Main Content Area -->
         <main class="main-content">
-
             <div class="blog-area section-space-y-axis-100">
                 <div class="container">
                     <div class="row">
-                            <div class="col-xl-3 col-lg-4 order-2 pt-5 pt-lg-0">
+                        <div class="col-xl-3 col-lg-4 order-2 pt-5 pt-lg-0">
                             <div class="sidebar-area">
                                 <div class="widgets-area">
                                     <div class="widgets-item pt-0">
@@ -615,8 +601,7 @@
                                     </p>
                                 </div>
                                 <div class="blog-img img-hover-effect">
-                                    <img class="img-full" src="assets/images/posts/Allergiya.jpeg"
-                                        alt="Blog Image">
+                                    <img class="img-full" src="assets/images/posts/Allergiya.jpeg" alt="Blog Image">
                                 </div>
                                 <p class="short-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                                     eiusmod
@@ -648,12 +633,8 @@
                                                 <div class="swiper-slide product-item">
                                                     <div class="product-img">
                                                         <a href="#">
-                                                            <img class="primary-img"
-                                                                src="assets/images/posts/artroz1.jpeg"
-                                                                alt="Product Images">
-                                                            <img class="secondary-img"
-                                                                src="assets/images/posts/artroz2-300x203.jpeg"
-                                                                alt="Product Images">
+                                                            <img class="primary-img" src="assets/images/posts/artroz1.jpeg" alt="Product Images">
+                                                            <img class="secondary-img" src="assets/images/posts/artroz2-300x203.jpeg" alt="Product Images">
                                                         </a>
 
                                                     </div>
@@ -662,12 +643,8 @@
                                                 <div class="swiper-slide product-item">
                                                     <div class="product-img">
                                                         <a href="#">
-                                                            <img class="primary-img"
-                                                                src="assets/images/posts/astma3.jpeg"
-                                                                alt="Product Images">
-                                                            <img class="secondary-img"
-                                                                src="assets/images/posts/astma5diafragma-296x300.jpeg"
-                                                                alt="Product Images">
+                                                            <img class="primary-img" src="assets/images/posts/astma3.jpeg" alt="Product Images">
+                                                            <img class="secondary-img" src="assets/images/posts/astma5diafragma-296x300.jpeg" alt="Product Images">
                                                         </a>
 
                                                     </div>
@@ -676,12 +653,8 @@
                                                 <div class="swiper-slide product-item">
                                                     <div class="product-img">
                                                         <a href="#">
-                                                            <img class="primary-img"
-                                                                src="assets/images/posts/Emotsionalnye-bloki.jpeg"
-                                                                alt="Product Images">
-                                                            <img class="secondary-img"
-                                                                src="assets/images/posts/Disbalans-pozvonkov-178x300.jpeg"
-                                                                alt="Product Images">
+                                                            <img class="primary-img" src="assets/images/posts/Emotsionalnye-bloki.jpeg" alt="Product Images">
+                                                            <img class="secondary-img" src="assets/images/posts/Disbalans-pozvonkov-178x300.jpeg" alt="Product Images">
                                                         </a>
                                                     </div>
 
@@ -689,12 +662,8 @@
                                                 <div class="swiper-slide product-item">
                                                     <div class="product-img">
                                                         <a href="#">
-                                                            <img class="primary-img"
-                                                                src="assets/images/posts/ZHeludochno-kishechnyj-trakt.jpeg"
-                                                                alt="Product Images">
-                                                            <img class="secondary-img"
-                                                                src="assets/images/posts/Zaikanie.jpeg"
-                                                                alt="Product Images">
+                                                            <img class="primary-img" src="assets/images/posts/ZHeludochno-kishechnyj-trakt.jpeg" alt="Product Images">
+                                                            <img class="secondary-img" src="assets/images/posts/Zaikanie.jpeg" alt="Product Images">
                                                         </a>
 
                                                     </div>
@@ -734,34 +703,26 @@
                                         <img src="assets/images/logo/dark.png" alt="Logo">
                                     </a>
                                 </div>
-                               
+
                                 <div class="social-link with-border">
                                     <ul>
                                         <li>
-                                            <a href="#" data-tippy="Facebook" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                            <a href="#" data-tippy="Facebook" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-tippy="Twitter" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                            <a href="#" data-tippy="Twitter" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-tippy="Pinterest" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                            <a href="#" data-tippy="Pinterest" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                                                 <i class="fa fa-pinterest"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-tippy="Dribbble" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                            <a href="#" data-tippy="Dribbble" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                                                 <i class="fa fa-dribbble"></i>
                                             </a>
                                         </li>
@@ -782,7 +743,7 @@
                                     <li>
                                         <a href="#">FAQ</a>
                                     </li>
-                               
+
                                 </ul>
                             </div>
                         </div>
@@ -799,7 +760,7 @@
                                     <li>
                                         <a href="#">My Wishlist</a>
                                     </li>
-                               
+
                                 </ul>
                             </div>
                         </div>
@@ -816,7 +777,7 @@
                                     <li>
                                         <a href="#">Returns</a>
                                     </li>
-                                 
+
                                 </ul>
                             </div>
                         </div>
@@ -832,7 +793,7 @@
                                     </ul>
                                 </div>
                             </div>
-                          
+
                         </div>
                     </div>
                 </div>

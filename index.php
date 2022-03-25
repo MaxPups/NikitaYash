@@ -1,3 +1,6 @@
+<?php
+include('bd.php');
+?>
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -7,14 +10,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Pronia - Plant Store Bootstrap 5 Template</title>
     <meta name="robots" content="index, follow" />
-    <meta name="description"
-        content="Pronia plant store bootstrap 5 template is an awesome website template for any home plant shop.">
+    <meta name="description" content="Pronia plant store bootstrap 5 template is an awesome website template for any home plant shop.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
     <!-- fancyBox -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-
     <!-- CSS
     ============================================ -->
 
@@ -78,15 +79,12 @@
                                 <div class="header-right">
                                     <ul>
                                         <li>
-                                            <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal"
-                                                data-bs-target="#exampleModal">
+                                            <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="pe-7s-search"></i>
                                             </a>
                                         </li>
                                         <li class="dropdown d-none d-lg-block">
-                                            <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button"
-                                                id="settingButton" data-bs-toggle="dropdown" aria-label="setting"
-                                                aria-expanded="false">
+                                            <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button" id="settingButton" data-bs-toggle="dropdown" aria-label="setting" aria-expanded="false">
                                                 <i class="pe-7s-users"></i>
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="settingButton">
@@ -120,7 +118,7 @@
                                             <a href="index.html">Home</a>
                                         </li>
                                         <li class="drop-holder">
-                                            <a href="blog.html">CATALOG(blog.html)</a>
+                                            <a href="blog.php">CATALOG(blog.html)</a>
                                         </li>
                                         <li>
                                             <a href="contact.html">Contact Us</a>
@@ -152,7 +150,7 @@
                                             </li>
 
                                             <li class="drop-holder">
-                                                <a href="blog.html">CATALOG(blog.html)</a>
+                                                <a href="blog.php">CATALOG(blog.html)</a>
 
                                             </li>
                                             <li>
@@ -166,15 +164,12 @@
                                 <div class="header-right">
                                     <ul>
                                         <li>
-                                            <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal"
-                                                data-bs-target="#exampleModal">
+                                            <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="pe-7s-search"></i>
                                             </a>
                                         </li>
                                         <li class="dropdown d-none d-lg-block">
-                                            <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button"
-                                                id="stickysettingButton" data-bs-toggle="dropdown" aria-label="setting"
-                                                aria-expanded="false">
+                                            <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button" id="stickysettingButton" data-bs-toggle="dropdown" aria-label="setting" aria-expanded="false">
                                                 <i class="pe-7s-users"></i>
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="stickysettingButton">
@@ -213,8 +208,7 @@
 
 
                                 <li class="dropdown">
-                                    <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button"
-                                        id="settingButtonTwo" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button" id="settingButtonTwo" data-bs-toggle="dropdown" aria-expanded="false">
                                         <i class="pe-7s-users"></i>
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="settingButtonTwo">
@@ -256,9 +250,7 @@
                 <div class="modal-dialog modal-fullscreen">
                     <div class="modal-content modal-bg-dark">
                         <div class="modal-header">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                                data-tippy="Close" data-tippy-inertia="true" data-tippy-animation="shift-away"
-                                data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" data-tippy="Close" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                             </button>
                         </div>
                         <div class="modal-body">
@@ -266,9 +258,7 @@
                                 <span class="searchbox-info">Start typing and press Enter to search or ESC to
                                     close</span>
                                 <form action="#" class="hm-searchbox">
-                                    <input type="text" name="Search..." value="Search..."
-                                        onblur="if(this.value==''){this.value='Search...'}"
-                                        onfocus="if(this.value=='Search...'){this.value=''}" autocomplete="off">
+                                    <input type="text" name="Search..." value="Search..." onblur="if(this.value==''){this.value='Search...'}" onfocus="if(this.value=='Search...'){this.value=''}" autocomplete="off">
                                     <button class="search-btn" type="submit" aria-label="searchbtn">
                                         <i class="pe-7s-search"></i>
                                     </button>
@@ -283,19 +273,13 @@
                     <div class="minicart-content">
                         <div class="minicart-heading">
                             <h4 class="mb-0">Shopping Cart</h4>
-                            <a href="#" class="button-close"><i class="pe-7s-close" data-tippy="Close"
-                                    data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50"
-                                    data-tippy-arrow="true" data-tippy-theme="sharpborder"></i></a>
+                            <a href="#" class="button-close"><i class="pe-7s-close" data-tippy="Close" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i></a>
                         </div>
                         <ul class="minicart-list">
                             <li class="minicart-product">
-                                <a class="product-item_remove" href="#"><i class="pe-7s-close" data-tippy="Remove"
-                                        data-tippy-inertia="true" data-tippy-animation="shift-away"
-                                        data-tippy-delay="50" data-tippy-arrow="true"
-                                        data-tippy-theme="sharpborder"></i></a>
+                                <a class="product-item_remove" href="#"><i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i></a>
                                 <a href="single-product-variable.html" class="product-item_img">
-                                    <img class="img-full" src="assets/images/product/small-size/2-1-70x78.png"
-                                        alt="Product Image">
+                                    <img class="img-full" src="assets/images/product/small-size/2-1-70x78.png" alt="Product Image">
                                 </a>
                                 <div class="product-item_content">
                                     <a class="product-item_title" href="single-product-variable.html">American
@@ -304,13 +288,9 @@
                                 </div>
                             </li>
                             <li class="minicart-product">
-                                <a class="product-item_remove" href="#"><i class="pe-7s-close" data-tippy="Remove"
-                                        data-tippy-inertia="true" data-tippy-animation="shift-away"
-                                        data-tippy-delay="50" data-tippy-arrow="true"
-                                        data-tippy-theme="sharpborder"></i></a>
+                                <a class="product-item_remove" href="#"><i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i></a>
                                 <a href="single-product-variable.html" class="product-item_img">
-                                    <img class="img-full" src="assets/images/product/small-size/2-2-70x78.png"
-                                        alt="Product Image">
+                                    <img class="img-full" src="assets/images/product/small-size/2-2-70x78.png" alt="Product Image">
                                 </a>
                                 <div class="product-item_content">
                                     <a class="product-item_title" href="single-product-variable.html">Black Eyed
@@ -320,13 +300,10 @@
                             </li>
                             <li class="minicart-product">
                                 <a class="product-item_remove" href="#">
-                                    <i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true"
-                                        data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true"
-                                        data-tippy-theme="sharpborder"></i>
+                                    <i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i>
                                 </a>
                                 <a href="single-product-variable.html" class="product-item_img">
-                                    <img class="img-full" src="assets/images/product/small-size/2-3-70x78.png"
-                                        alt="Product Image">
+                                    <img class="img-full" src="assets/images/product/small-size/2-3-70x78.png" alt="Product Image">
                                 </a>
                                 <div class="product-item_content">
                                     <a class="product-item_title" href="single-product-variable.html">Bleeding Heart</a>
@@ -348,7 +325,14 @@
             <div class="global-overlay"></div>
         </header>
         <!-- Main Header Area End Here -->
-
+        <?php
+        while ($row = $results->fetch_assoc()) {
+            echo $row['name'];
+            echo '<hr>';
+            echo $row['id'];
+            echo '<hr>';
+        };
+        ?>
         <!-- Begin Slider Area -->
         <div class="slider-area">
 
@@ -381,7 +365,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide animation-style-01">
-                        <div class="slide-inner style-1 bg-height" data-bg-image="assets/images/footer/bg/slider.jpg">
+                        <div class="slide-inner style-1 bg-height" data-bg-image="assets/images/footer/bg/1-1920x465.jpg">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-6 order-2 order-lg-1 align-self-center">
@@ -458,7 +442,7 @@
                             <div class="banner-content text-position-left">
                                 <span class="collection">Collection Of Cactus</span>
                                 <h3 class="title">Pottery Pots & <br> Plant</h3>
-                            
+
                             </div>
                         </div>
                     </div>
@@ -470,7 +454,7 @@
                             <div class="banner-content text-position-center">
                                 <span class="collection">New Collection</span>
                                 <h3 class="title">Plant Port</h3>
-                               
+
                             </div>
                         </div>
                     </div>
@@ -482,7 +466,7 @@
                             <div class="banner-content text-position-center">
                                 <span class="collection">New Collection</span>
                                 <h3 class="title">Plant Port</h3>
-                               
+
                             </div>
                         </div>
                     </div>
@@ -494,7 +478,7 @@
                             <div class="banner-content text-position-left">
                                 <span class="collection">Collection Of Cactus</span>
                                 <h3 class="title">Hanging Pots & <br> Plant</h3>
-                           
+
                             </div>
                         </div>
                     </div>
@@ -550,30 +534,22 @@
                                 <div class="social-link with-border">
                                     <ul>
                                         <li>
-                                            <a href="#" data-tippy="Facebook" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                            <a href="#" data-tippy="Facebook" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-tippy="Twitter" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                            <a href="#" data-tippy="Twitter" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-tippy="Pinterest" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                            <a href="#" data-tippy="Pinterest" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                                                 <i class="fa fa-pinterest"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-tippy="Dribbble" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                            <a href="#" data-tippy="Dribbble" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                                                 <i class="fa fa-dribbble"></i>
                                             </a>
                                         </li>
@@ -653,14 +629,11 @@
         <!-- Footer Area End Here -->
 
         <!-- Begin Modal Area -->
-        <div class="modal quick-view-modal fade" id="quickModal" data-bs-backdrop="static" data-bs-keyboard="false"
-            tabindex="-1" aria-labelledby="quickModal" aria-hidden="true">
+        <div class="modal quick-view-modal fade" id="quickModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="quickModal" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                            data-tippy="Close" data-tippy-inertia="true" data-tippy-animation="shift-away"
-                            data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" data-tippy="Close" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                         </button>
                     </div>
                     <div class="modal-body">
@@ -671,30 +644,22 @@
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <a href="#" class="single-img">
-                                                    <img class="img-full"
-                                                        src="assets/images/product/large-size/1-1-570x633.jpg"
-                                                        alt="Product Image">
+                                                    <img class="img-full" src="assets/images/product/large-size/1-1-570x633.jpg" alt="Product Image">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
                                                 <a href="#" class="single-img">
-                                                    <img class="img-full"
-                                                        src="assets/images/product/large-size/1-2-570x633.jpg"
-                                                        alt="Product Image">
+                                                    <img class="img-full" src="assets/images/product/large-size/1-2-570x633.jpg" alt="Product Image">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
                                                 <a href="#" class="single-img">
-                                                    <img class="img-full"
-                                                        src="assets/images/product/large-size/1-3-570x633.jpg"
-                                                        alt="Product Image">
+                                                    <img class="img-full" src="assets/images/product/large-size/1-3-570x633.jpg" alt="Product Image">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
                                                 <a href="#" class="single-img">
-                                                    <img class="img-full"
-                                                        src="assets/images/product/large-size/1-4-570x633.jpg"
-                                                        alt="Product Image">
+                                                    <img class="img-full" src="assets/images/product/large-size/1-4-570x633.jpg" alt="Product Image">
                                                 </a>
                                             </div>
                                         </div>
@@ -753,8 +718,7 @@
                                             </div>
                                         </li>
                                         <li class="add-to-cart">
-                                            <a class="btn btn-custom-size lg-size btn-pronia-primary"
-                                                href="cart.html">Add to
+                                            <a class="btn btn-custom-size lg-size btn-pronia-primary" href="cart.html">Add to
                                                 cart</a>
                                         </li>
                                         <li class="wishlist-btn-wrap">

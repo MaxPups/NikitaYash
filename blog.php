@@ -368,9 +368,9 @@
                                                     <div class="tab-content">
                                                         <ul>
 
-                                                            <li><a href="#">статья 1 читать</a></li>
-                                                            <li><a href="#">статья 2 читать</a></li>
-                                                            <li><a href="#">статья 3 читать</a></li>
+                                                            <li><a href="cart.php?id=1">статья 1 читать</a></li>
+                                                            <li><a href="cart.php?id=2">статья 2 читать</a></li>
+                                                            <li><a href="cart.php?id=3">статья 3 читать</a></li>
                                                             <li><a href="#">статья 4 читать</a></li>
                                                             <li><a href="#">статья 5 читать</a></li>
                                                             <li><a href="#">статья 6 читать</a></li>
