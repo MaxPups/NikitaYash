@@ -69,23 +69,28 @@
                                     <i class="pe-7s-call"></i>
                                     <a href="tel://+00-123-456-789">+00 123 456 789</a>
                                 </div>
-
-                                <a href="index.html" class="header-logo">
-                                    <img src="assets/images/logo/dark.png" alt="Header Logo">
-                                </a>
-
+                                <nav class="main-nav">
+                                    <ul>
+                                        <li class="drop-holder">
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li class="drop-holder">
+                                            <a href="blog.php">CATALOG(blog.html)</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </nav>
                                 <div class="header-right">
                                     <ul>
                                         <li>
-                                            <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal"
-                                                data-bs-target="#exampleModal">
+                                            <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="pe-7s-search"></i>
                                             </a>
                                         </li>
                                         <li class="dropdown d-none d-lg-block">
-                                            <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button"
-                                                id="settingButton" data-bs-toggle="dropdown" aria-label="setting"
-                                                aria-expanded="false">
+                                            <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button" id="settingButton" data-bs-toggle="dropdown" aria-label="setting" aria-expanded="false">
                                                 <i class="pe-7s-users"></i>
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="settingButton">
@@ -108,29 +113,7 @@
                     </div>
                 </div>
             </div>
-            <div class="header-bottom d-none d-lg-block">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="main-menu position-relative">
-                                <nav class="main-nav">
-                                    <ul>
-                                        <li class="drop-holder">
-                                            <a href="index.html">Home</a>
-                                        </li>
-                                        <li class="drop-holder">
-                                            <a href="blog.html">CATALOG(blog.html)</a>
-                                        </li>
-                                        <li>
-                                            <a href="contact.html">Contact Us</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+         
             <div class="header-sticky py-4 py-lg-0">
                 <div class="container">
                     <div class="header-nav position-relative">
@@ -151,7 +134,7 @@
                                             </li>
 
                                             <li class="drop-holder">
-                                                <a href="blog.html">CATALOG(blog.html)</a>
+                                                <a href="blog.php">CATALOG(blog.html)</a>
 
                                             </li>
                                             <li>
@@ -165,15 +148,12 @@
                                 <div class="header-right">
                                     <ul>
                                         <li>
-                                            <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal"
-                                                data-bs-target="#exampleModal">
+                                            <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="pe-7s-search"></i>
                                             </a>
                                         </li>
                                         <li class="dropdown d-none d-lg-block">
-                                            <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button"
-                                                id="stickysettingButton" data-bs-toggle="dropdown" aria-label="setting"
-                                                aria-expanded="false">
+                                            <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button" id="stickysettingButton" data-bs-toggle="dropdown" aria-label="setting" aria-expanded="false">
                                                 <i class="pe-7s-users"></i>
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="stickysettingButton">
@@ -212,8 +192,7 @@
 
 
                                 <li class="dropdown">
-                                    <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button"
-                                        id="settingButtonTwo" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button" id="settingButtonTwo" data-bs-toggle="dropdown" aria-expanded="false">
                                         <i class="pe-7s-users"></i>
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="settingButtonTwo">
@@ -255,9 +234,7 @@
                 <div class="modal-dialog modal-fullscreen">
                     <div class="modal-content modal-bg-dark">
                         <div class="modal-header">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                                data-tippy="Close" data-tippy-inertia="true" data-tippy-animation="shift-away"
-                                data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" data-tippy="Close" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                             </button>
                         </div>
                         <div class="modal-body">
@@ -265,9 +242,7 @@
                                 <span class="searchbox-info">Start typing and press Enter to search or ESC to
                                     close</span>
                                 <form action="#" class="hm-searchbox">
-                                    <input type="text" name="Search..." value="Search..."
-                                        onblur="if(this.value==''){this.value='Search...'}"
-                                        onfocus="if(this.value=='Search...'){this.value=''}" autocomplete="off">
+                                    <input type="text" name="Search..." value="Search..." onblur="if(this.value==''){this.value='Search...'}" onfocus="if(this.value=='Search...'){this.value=''}" autocomplete="off">
                                     <button class="search-btn" type="submit" aria-label="searchbtn">
                                         <i class="pe-7s-search"></i>
                                     </button>
@@ -282,19 +257,13 @@
                     <div class="minicart-content">
                         <div class="minicart-heading">
                             <h4 class="mb-0">Shopping Cart</h4>
-                            <a href="#" class="button-close"><i class="pe-7s-close" data-tippy="Close"
-                                    data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50"
-                                    data-tippy-arrow="true" data-tippy-theme="sharpborder"></i></a>
+                            <a href="#" class="button-close"><i class="pe-7s-close" data-tippy="Close" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i></a>
                         </div>
                         <ul class="minicart-list">
                             <li class="minicart-product">
-                                <a class="product-item_remove" href="#"><i class="pe-7s-close" data-tippy="Remove"
-                                        data-tippy-inertia="true" data-tippy-animation="shift-away"
-                                        data-tippy-delay="50" data-tippy-arrow="true"
-                                        data-tippy-theme="sharpborder"></i></a>
+                                <a class="product-item_remove" href="#"><i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i></a>
                                 <a href="single-product-variable.html" class="product-item_img">
-                                    <img class="img-full" src="assets/images/product/small-size/2-1-70x78.png"
-                                        alt="Product Image">
+                                    <img class="img-full" src="assets/images/product/small-size/2-1-70x78.png" alt="Product Image">
                                 </a>
                                 <div class="product-item_content">
                                     <a class="product-item_title" href="single-product-variable.html">American
@@ -303,13 +272,9 @@
                                 </div>
                             </li>
                             <li class="minicart-product">
-                                <a class="product-item_remove" href="#"><i class="pe-7s-close" data-tippy="Remove"
-                                        data-tippy-inertia="true" data-tippy-animation="shift-away"
-                                        data-tippy-delay="50" data-tippy-arrow="true"
-                                        data-tippy-theme="sharpborder"></i></a>
+                                <a class="product-item_remove" href="#"><i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i></a>
                                 <a href="single-product-variable.html" class="product-item_img">
-                                    <img class="img-full" src="assets/images/product/small-size/2-2-70x78.png"
-                                        alt="Product Image">
+                                    <img class="img-full" src="assets/images/product/small-size/2-2-70x78.png" alt="Product Image">
                                 </a>
                                 <div class="product-item_content">
                                     <a class="product-item_title" href="single-product-variable.html">Black Eyed
@@ -319,13 +284,10 @@
                             </li>
                             <li class="minicart-product">
                                 <a class="product-item_remove" href="#">
-                                    <i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true"
-                                        data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true"
-                                        data-tippy-theme="sharpborder"></i>
+                                    <i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i>
                                 </a>
                                 <a href="single-product-variable.html" class="product-item_img">
-                                    <img class="img-full" src="assets/images/product/small-size/2-3-70x78.png"
-                                        alt="Product Image">
+                                    <img class="img-full" src="assets/images/product/small-size/2-3-70x78.png" alt="Product Image">
                                 </a>
                                 <div class="product-item_content">
                                     <a class="product-item_title" href="single-product-variable.html">Bleeding Heart</a>
@@ -755,7 +717,7 @@
                         <div class="col-lg-3">
                             <div class="footer-widget-item">
                                 <div class="footer-widget-logo">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <img src="assets/images/logo/dark.png" alt="Logo">
                                     </a>
                                 </div>

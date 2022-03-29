@@ -71,11 +71,19 @@ include('bd.php');
                                     <i class="pe-7s-call"></i>
                                     <a href="tel://+00-123-456-789">+00 123 456 789</a>
                                 </div>
-
-                                <a href="index.html" class="header-logo">
-                                    <img src="assets/images/logo/dark.png" alt="Header Logo">
-                                </a>
-
+                                <nav class="main-nav">
+                                    <ul>
+                                        <li class="drop-holder">
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li class="drop-holder">
+                                            <a href="blog.php">CATALOG(blog.html)</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </nav>
                                 <div class="header-right">
                                     <ul>
                                         <li>
@@ -107,29 +115,7 @@ include('bd.php');
                     </div>
                 </div>
             </div>
-            <div class="header-bottom d-none d-lg-block">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="main-menu position-relative">
-                                <nav class="main-nav">
-                                    <ul>
-                                        <li class="drop-holder">
-                                            <a href="index.html">Home</a>
-                                        </li>
-                                        <li class="drop-holder">
-                                            <a href="blog.html">CATALOG(blog.html)</a>
-                                        </li>
-                                        <li>
-                                            <a href="contact.html">Contact Us</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+         
             <div class="header-sticky py-4 py-lg-0">
                 <div class="container">
                     <div class="header-nav position-relative">
@@ -150,7 +136,7 @@ include('bd.php');
                                             </li>
 
                                             <li class="drop-holder">
-                                                <a href="blog.html">CATALOG(blog.html)</a>
+                                                <a href="blog.php">CATALOG(blog.html)</a>
 
                                             </li>
                                             <li>
@@ -696,7 +682,7 @@ include('bd.php');
                         <div class="col-lg-3">
                             <div class="footer-widget-item">
                                 <div class="footer-widget-logo">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <img src="assets/images/logo/dark.png" alt="Logo">
                                     </a>
                                 </div>
