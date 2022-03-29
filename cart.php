@@ -9,12 +9,12 @@ include('bd.php');
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Pronia - Blog Detail</title>
+    <title>Кинезиолог Никита Янушанец. Лечение остеохондроза, сколиоза, головных болей, аллергии, заиканий и астмы</title>
     <meta name="robots" content="index, follow" />
     <meta name="description" content="Pronia plant store bootstrap 5 template is an awesome website template for any home plant shop.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/Logo.png" />
 
     <!-- CSS
     ============================================ -->
@@ -599,9 +599,6 @@ include('bd.php');
                                         perspiciatis unde omnis iste natus error sit voluptatem accusantiumy doloremque
                                         laudantium, totam rem aperiam,
                                     </p>
-                                </div>
-                                <div class="blog-img img-hover-effect">
-                                    <img class="img-full" src="assets/images/posts/Allergiya.jpeg" alt="Blog Image">
                                 </div>
                                 <p class="short-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                                     eiusmod

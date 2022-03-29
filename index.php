@@ -8,12 +8,12 @@ include('bd.php');
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Pronia - Plant Store Bootstrap 5 Template</title>
+    <title>Кинезиолог Никита Янушанец. Лечение остеохондроза, сколиоза, головных болей, аллергии, заиканий и астмы</title>
     <meta name="robots" content="index, follow" />
     <meta name="description" content="Pronia plant store bootstrap 5 template is an awesome website template for any home plant shop.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/Logo.png" />
     <!-- fancyBox -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <!-- CSS
@@ -325,14 +325,6 @@ include('bd.php');
             <div class="global-overlay"></div>
         </header>
         <!-- Main Header Area End Here -->
-        <?php
-        while ($row = $results->fetch_assoc()) {
-            echo $row['name'];
-            echo '<hr>';
-            echo $row['id'];
-            echo '<hr>';
-        };
-        ?>
         <!-- Begin Slider Area -->
         <div class="slider-area">
 
