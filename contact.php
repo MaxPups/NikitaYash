@@ -311,14 +311,13 @@
                         <div class="col-lg-12">
                             <div class="contact-wrap">
                                 <div class="contact-info text-white" data-bg-image="assets/images/contact/1-1-370x500.jpg">
-                                    <h2 class="contact-title">Contact Info:</h2>
-                                    <p class="contact-desc">Fill the form amd our teaam will get to back
-                                        to you within 24 hours.
+                                    <h2 class="contact-title">Контактная информация</h2>
+                                    <p class="contact-desc">Свяжитесь с нами если остались вопросы или заполните анкету и мы свяжемся с вами.
                                     </p>
                                     <ul class="contact-list">
                                         <li>
                                             <i class="pe-7s-call"></i>
-                                            <a href="tel://123-456-789">123 456 789</a>
+                                            <a href="tel://123-456-789">+7 911 000 55 66</a>
                                         </li>
                                         <li>
                                             <i class="pe-7s-mail"></i>
@@ -331,28 +330,24 @@
                                     </ul>
                                 </div>
                                 <form id="contact-form" class="contact-form" action="https://htmlmail.hasthemes.com/mamunur/pronia.php">
-                                    <div class="group-input">
+                                    <div class="group-input mb-5">
                                         <div class="form-field me-lg-30 mb-35 mb-lg-0">
-                                            <input type="text" name="con_firstName" id="con_firstName" placeholder="First Name*" class="input-field" autocomplete="off">
-                                        </div>
-                                        <div class="form-field mb-35">
-                                            <input type="text" name="con_lastName" id="con_lastName" placeholder="Last Name*" class="input-field" autocomplete="off">
+                                            <input type="text" name="con_firstName" id="con_firstName" placeholder="Имя" class="input-field" autocomplete="off">
                                         </div>
                                     </div>
                                     <div class="group-input mb-35">
                                         <div class="form-field me-lg-30 mb-35 mb-lg-0">
-                                            <input type="text" name="con_phone" id="con_phone" placeholder="Phone*" class="input-field" autocomplete="off">
+                                            <input type="text" name="con_phone" id="con_phone" placeholder="Телефон" class="input-field" autocomplete="off">
                                         </div>
                                         <div class="form-field">
-                                            <input type="text" name="con_email" id="con_email" placeholder="Email*" class="input-field" autocomplete="off">
+                                            <input type="text" name="con_email" id="con_email" placeholder="Email" class="input-field" autocomplete="off">
                                         </div>
                                     </div>
                                     <div class="form-field mb-5">
-                                        <textarea name="con_message" id="con_message" placeholder="Message" class="textarea-field"></textarea>
+                                        <textarea name="con_message" id="con_message" placeholder="Сообщение" class="textarea-field"></textarea>
                                     </div>
                                     <div class="contact-button-wrap">
-                                        <button type="submit" value="submit" class="btn btn btn-custom-size xl-size btn-pronia-primary" name="submit">Post
-                                            Comment</button>
+                                        <button type="submit" value="submit" class="btn btn btn-custom-size xl-size btn-pronia-primary" name="submit">Отправить</button>
                                         <p class="form-messege mb-0"></p>
                                     </div>
                                 </form>
