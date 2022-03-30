@@ -3231,7 +3231,9 @@ blockquote p {
 .footer-contact-info .footer-widget-title {
   margin-bottom: 5px;
 }
-
+.footer-contact-info{
+  text-align: center;
+}
 .footer-contact-info .number {
   color: #000000;
   font-size: 24px;
@@ -6922,7 +6924,7 @@ blockquote p {
 /*----------------------------------------*/
 .error-404-area[data-bg-image]:not(.bg-pattern) {
   background-position: bottom;
-  height: 885px;
+  height: 100vh;
 }
 
 .error-404-content {

@@ -120,13 +120,6 @@ include('bd.php');
                 <div class="container">
                     <div class="header-nav position-relative">
                         <div class="row align-items-center">
-                            <div class="col-lg-3 col-6">
-
-                                <a href="index.php" class="header-logo">
-                                    <img src="assets/images/logo/dark.png" alt="Header Logo">
-                                </a>
-
-                            </div>
                             <div class="col-lg-6 d-none d-lg-block">
                                 <div class="main-menu">
                                     <nav class="main-nav">
@@ -146,7 +139,7 @@ include('bd.php');
                                     </nav>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-6 col">
                                 <div class="header-right">
                                     <ul>
                                         <li>
@@ -501,99 +494,14 @@ include('bd.php');
             <div class="footer-top section-space-top-100 pb-60">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-3">
-                            <div class="footer-widget-item">
-                                <div class="footer-widget-logo">
-                                    <a href="index.php">
-                                        <img src="assets/images/logo/dark.png" alt="Logo">
-                                    </a>
-                                </div>
-
-                                <div class="social-link with-border">
-                                    <ul>
-                                        <li>
-                                            <a href="#" data-tippy="Facebook" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" data-tippy="Twitter" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" data-tippy="Pinterest" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                                <i class="fa fa-pinterest"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" data-tippy="Dribbble" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                                <i class="fa fa-dribbble"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 pt-40">
-                            <div class="footer-widget-item">
-                                <h3 class="footer-widget-title">Useful Links</h3>
-                                <ul class="footer-widget-list-item">
-                                    <li>
-                                        <a href="#">About Pronia</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">How to shop</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">FAQ</a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 pt-40">
-                            <div class="footer-widget-item">
-                                <h3 class="footer-widget-title">My Account</h3>
-                                <ul class="footer-widget-list-item">
-                                    <li>
-                                        <a href="#">Sign In</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">View Cart</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">My Wishlist</a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 pt-40">
-                            <div class="footer-widget-item">
-                                <h3 class="footer-widget-title">Our Service</h3>
-                                <ul class="footer-widget-list-item">
-                                    <li>
-                                        <a href="#">Payment Methods</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Money Guarantee!</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Returns</a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 pt-40">
+                        <div class="col-lg-3 pt-40 mx-auto">
                             <div class="footer-contact-info">
-                                <h3 class="footer-widget-title">Got Question? Call Us</h3>
-                                <a class="number" href="tel://123-456-789">123 456 789</a>
+                                <h3 class="footer-widget-title">Есть вопросы?</h3>
+                                <a class="number" href="tel://123-456-789"> +7 911 000 55 66</a>
                                 <div class="address">
                                     <ul>
                                         <li>
-                                            Your Address Goes Here
+                                         Санкт-Петербург
                                         </li>
                                     </ul>
                                 </div>
