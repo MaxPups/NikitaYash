@@ -54,16 +54,44 @@ include('bd.php');
                             <div class="header-top-left">
                                 <span class="pronia-offer">
                                     Здесь может быть данный после входа в личный кабинет
-
                                 </span>
+                                <!-- <span title="LogOut">
+                                    <a href="#" class="search-btn bt">
+                                        <i class="pe-7s-right-arrow"></i>
+                                    </a>
+                                </span> -->
                             </div>
                         </div>
 
                     </div>
                 </div>
             </div>
+            <!-- block if user is reqister -->
+            <div class="header-top bg-pronia-primary d-none d-lg-block mt-5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-1">
+                            <span title="LogOut">
+                                <a href="#" class="search-btn bt bt-logout">
+                                    <i class="pe-7s-right-arrow"></i>
+                                </a>
+                            </span>
+                        </div>
+                        <div class="col-11">
+                            <div class="header-top-left">
+                                <span class="pronia-offer">
+                                    Привет, USER!</span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- block if user is reqister  -->
             <div class="header-middle py-30">
                 <div class="container">
+
                     <div class="row align-items-center">
                         <div class="col-lg-12">
                             <div class="header-middle-wrap position-relative">
@@ -86,12 +114,12 @@ include('bd.php');
                                 </nav>
                                 <div class="header-right">
                                     <ul>
-                                        <li>
+                                        <li title="Serch">
                                             <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 <i class="pe-7s-search"></i>
                                             </a>
                                         </li>
-                                        <li class="dropdown d-none d-lg-block">
+                                        <li class="dropdown d-none d-lg-block" title="Account">
                                             <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button" id="settingButton" data-bs-toggle="dropdown" aria-label="setting" aria-expanded="false">
                                                 <i class="pe-7s-users"></i>
                                             </button>
@@ -102,6 +130,12 @@ include('bd.php');
                                                 </li>
                                             </ul>
                                         </li>
+                                        <!-- <li title="LogOut">
+                                            <a href="#" class="search-btn bt">
+                                                <i class="pe-7s-right-arrow"></i>
+                                            </a>
+                                        </li> -->
+
 
                                         <li class="mobile-menu_wrap d-block d-lg-none">
                                             <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn pl-0">
@@ -115,7 +149,7 @@ include('bd.php');
                     </div>
                 </div>
             </div>
-         
+
             <div class="header-sticky py-4 py-lg-0">
                 <div class="container">
                     <div class="header-nav position-relative">
@@ -172,20 +206,19 @@ include('bd.php');
                 </div>
             </div>
             <div class="mobile-menu_wrapper" id="mobileMenu">
+
                 <div class="offcanvas-body">
                     <div class="inner-body">
                         <div class="offcanvas-top">
                             <a href="#" class="button-close"><i class="pe-7s-close"></i></a>
                         </div>
-                        <div class="header-contact offcanvas-contact">
+                        <!-- <div class="header-contact offcanvas-contact">
                             <i class="pe-7s-call"></i>
                             <a href="tel://+00-123-456-789">+00 123 456 789</a>
-                        </div>
+                        </div> -->
                         <div class="offcanvas-user-info">
+                            <h2>Привет, User!</h2>
                             <ul class="dropdown-wrap" style="padding-left: 83%;">
-
-
-
                                 <li class="dropdown">
                                     <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button" id="settingButtonTwo" data-bs-toggle="dropdown" aria-expanded="false">
                                         <i class="pe-7s-users"></i>
@@ -194,7 +227,11 @@ include('bd.php');
                                         <li><a class="dropdown-item" href="my-account.php">My account</a></li>
                                         <li><a class="dropdown-item" href="login-register.php">Login | Register</a>
                                         </li>
+                                        <li><a href="#" class="search-btn bt bt-logout">
+                                                Logout
+                                            </a></li>
                                     </ul>
+
                                 </li>
                             </ul>
                         </div>
@@ -501,7 +538,7 @@ include('bd.php');
                                 <div class="address">
                                     <ul>
                                         <li>
-                                         Санкт-Петербург
+                                            Санкт-Петербург
                                         </li>
                                     </ul>
                                 </div>

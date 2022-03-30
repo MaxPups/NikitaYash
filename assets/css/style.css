@@ -1698,6 +1698,7 @@ blockquote p {
 
 .header-top {
   color: #fefefe;
+  padding: 20px;
 }
 
 .header-top-left .pronia-offer {
@@ -1773,6 +1774,7 @@ blockquote p {
 }
 
 /* ---Main Header--- */
+
 .main-account {
   overflow-y: auto;
 }
@@ -2076,7 +2078,14 @@ blockquote p {
   padding-top: 25px;
   padding-bottom: 20px;
 }
-
+.bt-logout{
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 8px 10px 5px;
+}
+.bt-logout>i{
+  font-weight: 900;
+}
 /*----------------------------------------*/
 /*  04. Slider
 /*----------------------------------------*/
@@ -3486,6 +3495,9 @@ blockquote p {
 .offcanvas-user-info {
   text-align: center;
   padding-bottom: 25px;
+}
+.offcanvas-user-info>h2{
+  color: #ffffff;
 }
 
 .offcanvas-user-info .dropdown-wrap {
