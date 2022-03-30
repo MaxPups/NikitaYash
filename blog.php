@@ -7,11 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Кинезиолог Никита Янушанец. Лечение остеохондроза, сколиоза, головных болей, аллергии, заиканий и астмы</title>
     <meta name="robots" content="index, follow" />
-    <meta name="description"
-        content="Pronia plant store bootstrap 5 template is an awesome website template for any home plant shop.">
+    <meta name="description" content="Pronia plant store bootstrap 5 template is an awesome website template for any home plant shop.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/Logo.png" />
+    <!-- fancyBox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <!-- link accordion -->
     <link rel="stylesheet" href="./assets/css/accordion.css">
     <!-- CSS
@@ -72,13 +73,13 @@
                                 <nav class="main-nav">
                                     <ul>
                                         <li class="drop-holder">
-                                            <a href="index.html">Home</a>
+                                            <a href="index.php">Home</a>
                                         </li>
                                         <li class="drop-holder">
-                                            <a href="blog.php">CATALOG(blog.html)</a>
+                                            <a href="blog.php">CATALOG(blog.php)</a>
                                         </li>
                                         <li>
-                                            <a href="contact.html">Contact Us</a>
+                                            <a href="contact.php">Contact Us</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -94,8 +95,8 @@
                                                 <i class="pe-7s-users"></i>
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="settingButton">
-                                                <li><a class="dropdown-item" href="my-account.html">My account</a></li>
-                                                <li><a class="dropdown-item" href="login-register.html">Login |
+                                                <li><a class="dropdown-item" href="my-account.php">My account</a></li>
+                                                <li><a class="dropdown-item" href="login-register.php">Login |
                                                         Register</a>
                                                 </li>
                                             </ul>
@@ -120,7 +121,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-3 col-6">
 
-                                <a href="index.html" class="header-logo">
+                                <a href="index.php" class="header-logo">
                                     <img src="assets/images/logo/dark.png" alt="Header Logo">
                                 </a>
 
@@ -130,15 +131,15 @@
                                     <nav class="main-nav">
                                         <ul>
                                             <li class="drop-holder">
-                                                <a href="index.html">Home</a>
+                                                <a href="index.php">Home</a>
                                             </li>
 
                                             <li class="drop-holder">
-                                                <a href="blog.php">CATALOG(blog.html)</a>
+                                                <a href="blog.php">CATALOG(blog.php)</a>
 
                                             </li>
                                             <li>
-                                                <a href="contact.html">Contact Us</a>
+                                                <a href="contact.php">Contact Us</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -157,8 +158,8 @@
                                                 <i class="pe-7s-users"></i>
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="stickysettingButton">
-                                                <li><a class="dropdown-item" href="my-account.html">My account</a></li>
-                                                <li><a class="dropdown-item" href="login-register.html">Login |
+                                                <li><a class="dropdown-item" href="my-account.php">My account</a></li>
+                                                <li><a class="dropdown-item" href="login-register.php">Login |
                                                         Register</a>
                                                 </li>
                                             </ul>
@@ -196,8 +197,8 @@
                                         <i class="pe-7s-users"></i>
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="settingButtonTwo">
-                                        <li><a class="dropdown-item" href="my-account.html">My account</a></li>
-                                        <li><a class="dropdown-item" href="login-register.html">Login | Register</a>
+                                        <li><a class="dropdown-item" href="my-account.php">My account</a></li>
+                                        <li><a class="dropdown-item" href="login-register.php">Login | Register</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -220,7 +221,7 @@
 
                                     </li>
                                     <li>
-                                        <a href="contact.html">
+                                        <a href="contact.php">
                                             <span class="mm-text">Contact</span>
                                         </a>
                                     </li>
@@ -262,22 +263,22 @@
                         <ul class="minicart-list">
                             <li class="minicart-product">
                                 <a class="product-item_remove" href="#"><i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i></a>
-                                <a href="single-product-variable.html" class="product-item_img">
+                                <a href="single-product-variable.php" class="product-item_img">
                                     <img class="img-full" src="assets/images/product/small-size/2-1-70x78.png" alt="Product Image">
                                 </a>
                                 <div class="product-item_content">
-                                    <a class="product-item_title" href="single-product-variable.html">American
+                                    <a class="product-item_title" href="single-product-variable.php">American
                                         Marigold</a>
                                     <span class="product-item_quantity">1 x $23.45</span>
                                 </div>
                             </li>
                             <li class="minicart-product">
                                 <a class="product-item_remove" href="#"><i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i></a>
-                                <a href="single-product-variable.html" class="product-item_img">
+                                <a href="single-product-variable.php" class="product-item_img">
                                     <img class="img-full" src="assets/images/product/small-size/2-2-70x78.png" alt="Product Image">
                                 </a>
                                 <div class="product-item_content">
-                                    <a class="product-item_title" href="single-product-variable.html">Black Eyed
+                                    <a class="product-item_title" href="single-product-variable.php">Black Eyed
                                         Susan</a>
                                     <span class="product-item_quantity">1 x $25.45</span>
                                 </div>
@@ -286,11 +287,11 @@
                                 <a class="product-item_remove" href="#">
                                     <i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i>
                                 </a>
-                                <a href="single-product-variable.html" class="product-item_img">
+                                <a href="single-product-variable.php" class="product-item_img">
                                     <img class="img-full" src="assets/images/product/small-size/2-3-70x78.png" alt="Product Image">
                                 </a>
                                 <div class="product-item_content">
-                                    <a class="product-item_title" href="single-product-variable.html">Bleeding Heart</a>
+                                    <a class="product-item_title" href="single-product-variable.php">Bleeding Heart</a>
                                     <span class="product-item_quantity">1 x $30.45</span>
                                 </div>
                             </li>
@@ -301,8 +302,8 @@
                         <span class="ammount">$79.35</span>
                     </div>
                     <div class="group-btn_wrap d-grid gap-2">
-                        <a href="cart.html" class="btn btn-dark">View Cart</a>
-                        <a href="checkout.html" class="btn btn-dark">Checkout</a>
+                        <a href="cart.php" class="btn btn-dark">View Cart</a>
+                        <a href="checkout.php" class="btn btn-dark">Checkout</a>
                     </div>
                 </div>
             </div>
@@ -325,7 +326,7 @@
                                             <h2>Open <b>multiple</b></h2>
                                             <div class="tabs">
                                                 <div class="tab">
-                                                    <input type="checkbox" id="chck1">
+                                                    <input type="checkbox" id="chck1" class="input_drop">
                                                     <label class="tab-label" for="chck1">Голова</label>
                                                     <div class="tab-content">
                                                         <ul>
@@ -363,7 +364,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="tab">
-                                                    <input type="checkbox" id="chck2">
+                                                    <input type="checkbox" id="chck2" class="input_drop">
                                                     <label class="tab-label" for="chck2">Живот</label>
                                                     <div class="tab-content">
                                                         <ul>
@@ -401,7 +402,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="tab">
-                                                    <input type="checkbox" id="chck3">
+                                                    <input type="checkbox" id="chck3" class="input_drop">
                                                     <label class="tab-label" for="chck3">Спина</label>
                                                     <div class="tab-content">
                                                         <ul>
@@ -439,7 +440,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="tab">
-                                                    <input type="checkbox" id="chck4">
+                                                    <input type="checkbox" id="chck4" class="input_drop">
                                                     <label class="tab-label" for="chck4">Ноги</label>
                                                     <div class="tab-content">
                                                         <ul>
@@ -477,7 +478,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="tab">
-                                                    <input type="checkbox" id="chck5">
+                                                    <input type="checkbox" id="chck5" class="input_drop">
                                                     <label class="tab-label" for="chck5">Нервы</label>
                                                     <div class="tab-content">
                                                         <ul>
@@ -515,7 +516,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="tab">
-                                                    <input type="checkbox" id="chck6">
+                                                    <input type="checkbox" id="chck6" class="input_drop">
                                                     <label class="tab-label" for="chck6">Еще</label>
                                                     <div class="tab-content">
                                                         <ul>
@@ -566,14 +567,14 @@
                                         <div class="blog-content">
 
                                             <h2 class="title">
-                                                <a href="cart.html">There Many Variations</a>
+                                                <a href="cart.php">There Many Variations</a>
                                             </h2>
                                             <p class="short-desc mb-7">Lorem ipsum dolor sit amet, consecteturl adipisl
                                                 elit,
                                                 sed do eiusmod tempor incidio ut labore et dolore magna aliqua.</p>
                                         </div>
                                         <div class="blog-img img-hover-effect">
-                                            <a href="cart.html">
+                                            <a href="cart.php">
                                                 <img class="img-full"
                                                     src="assets/images/blog/medium-size/1-1-310x220.jpg"
                                                     alt="Blog Image">
@@ -590,7 +591,7 @@
                                                     <div class="blog-content">
 
                                                         <h2 class="title">
-                                                            <a href="cart.html">Blog Gallery Post</a>
+                                                            <a href="cart.php">Blog Gallery Post</a>
                                                         </h2>
                                                         <p class="short-desc mb-7">Lorem ipsum dolor sit amet,
                                                             consecteturl
@@ -599,7 +600,7 @@
                                                             aliqua.</p>
                                                     </div>
                                                     <div class="blog-img img-hover-effect">
-                                                        <a href="cart.html">
+                                                        <a href="cart.php">
                                                             <img class="img-full"
                                                                 src="assets/images/blog/medium-size/1-3-310x220.jpg"
                                                                 alt="Blog Image">
@@ -613,7 +614,7 @@
                                                     <div class="blog-content">
 
                                                         <h2 class="title">
-                                                            <a href="cart.html">Blog Second Gallery Post</a>
+                                                            <a href="cart.php">Blog Second Gallery Post</a>
                                                         </h2>
                                                         <p class="short-desc mb-7">Lorem ipsum dolor sit amet,
                                                             consecteturl
@@ -622,7 +623,7 @@
                                                             aliqua.</p>
                                                     </div>
                                                     <div class="blog-img img-hover-effect">
-                                                        <a href="cart.html">
+                                                        <a href="cart.php">
                                                             <img class="img-full"
                                                                 src="assets/images/blog/medium-size/1-2-310x220.jpg"
                                                                 alt="Blog Image">
@@ -636,7 +637,7 @@
                                                     <div class="blog-content">
 
                                                         <h2 class="title">
-                                                            <a href="cart.html">Blog Third Gallery Post</a>
+                                                            <a href="cart.php">Blog Third Gallery Post</a>
                                                         </h2>
                                                         <p class="short-desc mb-7">Lorem ipsum dolor sit amet,
                                                             consecteturl
@@ -645,7 +646,7 @@
                                                             aliqua.</p>
                                                     </div>
                                                     <div class="blog-img img-hover-effect">
-                                                        <a href="cart.html">
+                                                        <a href="cart.php">
                                                             <img class="img-full"
                                                                 src="assets/images/blog/medium-size/1-1-310x220.jpg"
                                                                 alt="Blog Image">
@@ -663,14 +664,14 @@
                                         <div class="blog-content">
 
                                             <h2 class="title">
-                                                <a href="cart.html">There Many Variations</a>
+                                                <a href="cart.php">There Many Variations</a>
                                             </h2>
                                             <p class="short-desc mb-7">Lorem ipsum dolor sit amet, consecteturl adipisl
                                                 elit,
                                                 sed do eiusmod tempor incidio ut labore et dolore magna aliqua.</p>
                                         </div>
                                         <div class="blog-img img-hover-effect">
-                                            <a href="cart.html">
+                                            <a href="cart.php">
                                                 <img class="img-full"
                                                     src="assets/images/blog/medium-size/1-2-310x220.jpg"
                                                     alt="Blog Image">
@@ -684,14 +685,14 @@
                                         <div class="blog-content">
 
                                             <h2 class="title">
-                                                <a href="cart.html">There Many Variations</a>
+                                                <a href="cart.php">There Many Variations</a>
                                             </h2>
                                             <p class="short-desc mb-7">Lorem ipsum dolor sit amet, consecteturl adipisl
                                                 elit,
                                                 sed do eiusmod tempor incidio ut labore et dolore magna aliqua.</p>
                                         </div>
                                         <div class="blog-img img-hover-effect">
-                                            <a href="cart.html">
+                                            <a href="cart.php">
                                                 <img class="img-full"
                                                     src="assets/images/blog/medium-size/1-3-310x220.jpg"
                                                     alt="Blog Image">

@@ -15,7 +15,10 @@ include('bd.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/Logo.png" />
-
+    <!-- fancyBox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!-- link accordion -->
+    <link rel="stylesheet" href="./assets/css/accordion.css">
     <!-- CSS
     ============================================ -->
 
@@ -27,7 +30,7 @@ include('bd.php');
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
     <link rel="stylesheet" href="assets/css/ion.rangeSlider.min.css" />
-    <link rel="stylesheet" href="./assets/css/accordion.css">
+
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -74,13 +77,13 @@ include('bd.php');
                                 <nav class="main-nav">
                                     <ul>
                                         <li class="drop-holder">
-                                            <a href="index.html">Home</a>
+                                            <a href="index.php">Home</a>
                                         </li>
                                         <li class="drop-holder">
-                                            <a href="blog.php">CATALOG(blog.html)</a>
+                                            <a href="blog.php">CATALOG(blog.php)</a>
                                         </li>
                                         <li>
-                                            <a href="contact.html">Contact Us</a>
+                                            <a href="contact.php">Contact Us</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -96,8 +99,8 @@ include('bd.php');
                                                 <i class="pe-7s-users"></i>
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="settingButton">
-                                                <li><a class="dropdown-item" href="my-account.html">My account</a></li>
-                                                <li><a class="dropdown-item" href="login-register.html">Login |
+                                                <li><a class="dropdown-item" href="my-account.php">My account</a></li>
+                                                <li><a class="dropdown-item" href="login-register.php">Login |
                                                         Register</a>
                                                 </li>
                                             </ul>
@@ -122,7 +125,7 @@ include('bd.php');
                         <div class="row align-items-center">
                             <div class="col-lg-3 col-6">
 
-                                <a href="index.html" class="header-logo">
+                                <a href="index.php" class="header-logo">
                                     <img src="assets/images/logo/dark.png" alt="Header Logo">
                                 </a>
 
@@ -132,15 +135,15 @@ include('bd.php');
                                     <nav class="main-nav">
                                         <ul>
                                             <li class="drop-holder">
-                                                <a href="index.html">Home</a>
+                                                <a href="index.php">Home</a>
                                             </li>
 
                                             <li class="drop-holder">
-                                                <a href="blog.php">CATALOG(blog.html)</a>
+                                                <a href="blog.php">CATALOG(blog.php)</a>
 
                                             </li>
                                             <li>
-                                                <a href="contact.html">Contact Us</a>
+                                                <a href="contact.php">Contact Us</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -159,8 +162,8 @@ include('bd.php');
                                                 <i class="pe-7s-users"></i>
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="stickysettingButton">
-                                                <li><a class="dropdown-item" href="my-account.html">My account</a></li>
-                                                <li><a class="dropdown-item" href="login-register.html">Login |
+                                                <li><a class="dropdown-item" href="my-account.php">My account</a></li>
+                                                <li><a class="dropdown-item" href="login-register.php">Login |
                                                         Register</a>
                                                 </li>
                                             </ul>
@@ -198,8 +201,8 @@ include('bd.php');
                                         <i class="pe-7s-users"></i>
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="settingButtonTwo">
-                                        <li><a class="dropdown-item" href="my-account.html">My account</a></li>
-                                        <li><a class="dropdown-item" href="login-register.html">Login | Register</a>
+                                        <li><a class="dropdown-item" href="my-account.php">My account</a></li>
+                                        <li><a class="dropdown-item" href="login-register.php">Login | Register</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -222,7 +225,7 @@ include('bd.php');
 
                                     </li>
                                     <li>
-                                        <a href="contact.html">
+                                        <a href="contact.php">
                                             <span class="mm-text">Contact</span>
                                         </a>
                                     </li>
@@ -264,22 +267,22 @@ include('bd.php');
                         <ul class="minicart-list">
                             <li class="minicart-product">
                                 <a class="product-item_remove" href="#"><i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i></a>
-                                <a href="single-product-variable.html" class="product-item_img">
+                                <a href="single-product-variable.php" class="product-item_img">
                                     <img class="img-full" src="assets/images/product/small-size/2-1-70x78.png" alt="Product Image">
                                 </a>
                                 <div class="product-item_content">
-                                    <a class="product-item_title" href="single-product-variable.html">American
+                                    <a class="product-item_title" href="single-product-variable.php">American
                                         Marigold</a>
                                     <span class="product-item_quantity">1 x $23.45</span>
                                 </div>
                             </li>
                             <li class="minicart-product">
                                 <a class="product-item_remove" href="#"><i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i></a>
-                                <a href="single-product-variable.html" class="product-item_img">
+                                <a href="single-product-variable.php" class="product-item_img">
                                     <img class="img-full" src="assets/images/product/small-size/2-2-70x78.png" alt="Product Image">
                                 </a>
                                 <div class="product-item_content">
-                                    <a class="product-item_title" href="single-product-variable.html">Black Eyed
+                                    <a class="product-item_title" href="single-product-variable.php">Black Eyed
                                         Susan</a>
                                     <span class="product-item_quantity">1 x $25.45</span>
                                 </div>
@@ -288,11 +291,11 @@ include('bd.php');
                                 <a class="product-item_remove" href="#">
                                     <i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i>
                                 </a>
-                                <a href="single-product-variable.html" class="product-item_img">
+                                <a href="single-product-variable.php" class="product-item_img">
                                     <img class="img-full" src="assets/images/product/small-size/2-3-70x78.png" alt="Product Image">
                                 </a>
                                 <div class="product-item_content">
-                                    <a class="product-item_title" href="single-product-variable.html">Bleeding Heart</a>
+                                    <a class="product-item_title" href="single-product-variable.php">Bleeding Heart</a>
                                     <span class="product-item_quantity">1 x $30.45</span>
                                 </div>
                             </li>
@@ -303,8 +306,8 @@ include('bd.php');
                         <span class="ammount">$79.35</span>
                     </div>
                     <div class="group-btn_wrap d-grid gap-2">
-                        <a href="cart.html" class="btn btn-dark">View Cart</a>
-                        <a href="checkout.html" class="btn btn-dark">Checkout</a>
+                        <a href="cart.php" class="btn btn-dark">View Cart</a>
+                        <a href="checkout.php" class="btn btn-dark">Checkout</a>
                     </div>
                 </div>
             </div>
@@ -334,7 +337,7 @@ include('bd.php');
                                             <h2>Open <b>multiple</b></h2>
                                             <div class="tabs">
                                                 <div class="tab">
-                                                    <input type="checkbox" id="chck1">
+                                                    <input type="checkbox" id="chck1" class="input_drop">
                                                     <label class="tab-label" for="chck1">Голова</label>
                                                     <div class="tab-content">
                                                         <ul>
@@ -372,7 +375,7 @@ include('bd.php');
                                                     </div>
                                                 </div>
                                                 <div class="tab">
-                                                    <input type="checkbox" id="chck2">
+                                                    <input type="checkbox" id="chck2" class="input_drop">
                                                     <label class="tab-label" for="chck2">Живот</label>
                                                     <div class="tab-content">
                                                         <ul>
@@ -410,7 +413,7 @@ include('bd.php');
                                                     </div>
                                                 </div>
                                                 <div class="tab">
-                                                    <input type="checkbox" id="chck3">
+                                                    <input type="checkbox" id="chck3" class="input_drop">
                                                     <label class="tab-label" for="chck3">Спина</label>
                                                     <div class="tab-content">
                                                         <ul>
@@ -448,7 +451,7 @@ include('bd.php');
                                                     </div>
                                                 </div>
                                                 <div class="tab">
-                                                    <input type="checkbox" id="chck4">
+                                                    <input type="checkbox" id="chck4" class="input_drop">
                                                     <label class="tab-label" for="chck4">Ноги</label>
                                                     <div class="tab-content">
                                                         <ul>
@@ -486,7 +489,7 @@ include('bd.php');
                                                     </div>
                                                 </div>
                                                 <div class="tab">
-                                                    <input type="checkbox" id="chck5">
+                                                    <input type="checkbox" id="chck5" class="input_drop">
                                                     <label class="tab-label" for="chck5">Нервы</label>
                                                     <div class="tab-content">
                                                         <ul>
@@ -524,7 +527,7 @@ include('bd.php');
                                                     </div>
                                                 </div>
                                                 <div class="tab">
-                                                    <input type="checkbox" id="chck6">
+                                                    <input type="checkbox" id="chck6" class="input_drop">
                                                     <label class="tab-label" for="chck6">Еще</label>
                                                     <div class="tab-content">
                                                         <ul>
