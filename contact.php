@@ -74,7 +74,7 @@
                                             <a href="index.php">Home</a>
                                         </li>
                                         <li class="drop-holder">
-                                            <a href="blog.php">CATALOG(blog.php)</a>
+                                            <a href="blog.php">CATALOG</a>
                                         </li>
                                         <li>
                                             <a href="contact.php">Contact Us</a>
@@ -126,7 +126,7 @@
                                             </li>
 
                                             <li class="drop-holder">
-                                                <a href="blog.php">CATALOG(blog.php)</a>
+                                                <a href="blog.php">CATALOG</a>
 
                                             </li>
                                             <li>

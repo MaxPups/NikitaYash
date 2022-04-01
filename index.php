@@ -47,27 +47,8 @@ include('bd.php');
 
         <!-- Begin Main Header Area -->
         <header class="main-header-area">
-            <div class="header-top bg-pronia-primary d-none d-lg-block">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-6">
-                            <div class="header-top-left">
-                                <span class="pronia-offer">
-                                    Здесь может быть данный после входа в личный кабинет
-                                </span>
-                                <!-- <span title="LogOut">
-                                    <a href="#" class="search-btn bt">
-                                        <i class="pe-7s-right-arrow"></i>
-                                    </a>
-                                </span> -->
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
             <!-- block if user is reqister -->
-            <div class="header-top bg-pronia-primary d-none d-lg-block mt-5">
+            <div class="header-top bg-pronia-primary d-none d-lg-block">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-1">
@@ -105,7 +86,7 @@ include('bd.php');
                                             <a href="index.php">Home</a>
                                         </li>
                                         <li class="drop-holder">
-                                            <a href="blog.php">CATALOG(blog.php)</a>
+                                            <a href="blog.php">CATALOG</a>
                                         </li>
                                         <li>
                                             <a href="contact.php">Contact Us</a>
@@ -163,7 +144,7 @@ include('bd.php');
                                             </li>
 
                                             <li class="drop-holder">
-                                                <a href="blog.php">CATALOG(blog.php)</a>
+                                                <a href="blog.php">CATALOG</a>
 
                                             </li>
                                             <li>
@@ -212,10 +193,7 @@ include('bd.php');
                         <div class="offcanvas-top">
                             <a href="#" class="button-close"><i class="pe-7s-close"></i></a>
                         </div>
-                        <!-- <div class="header-contact offcanvas-contact">
-                            <i class="pe-7s-call"></i>
-                            <a href="tel://+00-123-456-789">+00 123 456 789</a>
-                        </div> -->
+
                         <div class="offcanvas-user-info">
                             <h2>Привет, User!</h2>
                             <ul class="dropdown-wrap" style="padding-left: 83%;">
@@ -246,7 +224,7 @@ include('bd.php');
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">
-                                            <span class="mm-text">CATALOG(BLOG)
+                                            <span class="mm-text">CATALOG
                                             </span>
                                         </a>
 

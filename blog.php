@@ -76,7 +76,7 @@
                                             <a href="index.php">Home</a>
                                         </li>
                                         <li class="drop-holder">
-                                            <a href="blog.php">CATALOG(blog.php)</a>
+                                            <a href="blog.php">CATALOG</a>
                                         </li>
                                         <li>
                                             <a href="contact.php">Contact Us</a>
@@ -128,7 +128,7 @@
                                             </li>
 
                                             <li class="drop-holder">
-                                                <a href="blog.php">CATALOG(blog.php)</a>
+                                                <a href="blog.php">CATALOG</a>
 
                                             </li>
                                             <li>
@@ -569,7 +569,7 @@
                                         <div class="blog-img img-hover-effect">
                                             <a href="cart.php">
                                                 <img class="img-full"
-                                                    src="assets/images/blog/medium-size/1-1-310x220.jpg"
+                                                src="assets/images/banner/1-2-370x300.jpg"
                                                     alt="Blog Image">
                                             </a>
 
@@ -595,7 +595,7 @@
                                                     <div class="blog-img img-hover-effect">
                                                         <a href="cart.php">
                                                             <img class="img-full"
-                                                                src="assets/images/blog/medium-size/1-3-310x220.jpg"
+                                                            src="assets/images/banner/1-2-370x300.jpg"
                                                                 alt="Blog Image">
                                                         </a>
 
@@ -618,7 +618,7 @@
                                                     <div class="blog-img img-hover-effect">
                                                         <a href="cart.php">
                                                             <img class="img-full"
-                                                                src="assets/images/blog/medium-size/1-2-310x220.jpg"
+                                                            src="assets/images/banner/1-2-370x300.jpg"
                                                                 alt="Blog Image">
                                                         </a>
 
@@ -641,7 +641,7 @@
                                                     <div class="blog-img img-hover-effect">
                                                         <a href="cart.php">
                                                             <img class="img-full"
-                                                                src="assets/images/blog/medium-size/1-1-310x220.jpg"
+                                                            src="assets/images/banner/1-2-370x300.jpg"
                                                                 alt="Blog Image">
                                                         </a>
 
@@ -666,7 +666,7 @@
                                         <div class="blog-img img-hover-effect">
                                             <a href="cart.php">
                                                 <img class="img-full"
-                                                    src="assets/images/blog/medium-size/1-2-310x220.jpg"
+                                                src="assets/images/banner/1-2-370x300.jpg"
                                                     alt="Blog Image">
                                             </a>
 
@@ -687,7 +687,7 @@
                                         <div class="blog-img img-hover-effect">
                                             <a href="cart.php">
                                                 <img class="img-full"
-                                                    src="assets/images/blog/medium-size/1-3-310x220.jpg"
+                                                src="assets/images/banner/1-2-370x300.jpg"
                                                     alt="Blog Image">
                                             </a>
 

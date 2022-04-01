@@ -74,7 +74,7 @@
                                             <a href="index.php">Home</a>
                                         </li>
                                         <li class="drop-holder">
-                                            <a href="blog.php">CATALOG(blog.php)</a>
+                                            <a href="blog.php">CATALOG</a>
                                         </li>
                                         <li>
                                             <a href="contact.php">Contact Us</a>
@@ -126,7 +126,7 @@
                                             </li>
 
                                             <li class="drop-holder">
-                                                <a href="blog.php">CATALOG(blog.php)</a>
+                                                <a href="blog.php">CATALOG</a>
 
                                             </li>
                                             <li>
@@ -309,7 +309,7 @@
                     <h2>У Вас нет подписок</h2>
                     <h2>Ваша подписка истекает хх.хх.2000</h2>
                 </div>
-                <div class="col-sm-12 mt-5 mb-5">
+                <div class="col-sm-12 mt-5 ">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Приобрести побписку на месяц</h5>
