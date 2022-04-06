@@ -15,14 +15,18 @@ include('bd.php');
     <meta name="description"
         content="Pronia plant store bootstrap 5 template is an awesome website template for any home plant shop.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/Logo.png" />
-    <!-- fancyBox -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/logo/site.webmanifest">
+    <link rel="mask-icon" href="assets/images/logo/safari-pinned-tab.svg" color="#0ea673">
+    <link rel="shortcut icon" href="assets/images/logo/favicon.ico">
+    <meta name="msapplication-TileColor" content="#0ea673">
+    <meta name="msapplication-config" content="assets/images/logo/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <!-- link accordion -->
     <link rel="stylesheet" href="./assets/css/accordion.css">
-    <!-- CSS
-    ============================================ -->
+   
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
@@ -79,13 +83,13 @@ include('bd.php');
                                 <nav class="main-nav">
                                     <ul>
                                         <li class="drop-holder">
-                                            <a href="index.php">Home</a>
+                                            <a href="index.php">HOME</a>
                                         </li>
                                         <li class="drop-holder">
-                                            <a href="blog.php">CATALOG(blog.php)</a>
+                                            <a href="blog.php">CATALOG</a>
                                         </li>
                                         <li>
-                                            <a href="contact.php">Contact Us</a>
+                                            <a href="contact.php">CONTACT US</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -334,26 +338,25 @@ include('bd.php');
         </header>
         <!-- Main Header Area End Here -->
         <!-- <?php
-        while ($row = $results->fetch_assoc()) {
-            if ($row['id'] === $_GET['id']) {
-                echo "<p>{$row['name']}</p>
+                while ($row = $results->fetch_assoc()) {
+                    if ($row['id'] === $_GET['id']) {
+                        echo "<p>{$row['name']}</p>
                 <p>{$row['description']}</p>
                 <video src='{$row['path']}' controls autoplay></video>";
-            }
-        };
-        ?> -->
+                    }
+                };
+                ?> -->
         <!-- Begin Main Content Area -->
         <main class="main-content">
             <div class="blog-area section-space-y-axis-100">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xl-3 col-lg-4 order-2 pt-5 pt-lg-0">
+                    <div class="row item-category">
+                        <div class="col-xl-12 col-lg-12 order-2 pt-5 pt-lg-0">
                             <div class="sidebar-area">
                                 <div class="widgets-area">
                                     <div class="widgets-item pt-0">
                                         <h2 class="widgets-title mb-4">Categories</h2>
                                         <div class="col">
-                                            <h2>Open <b>multiple</b></h2>
                                             <div class="tabs">
                                                 <div class="tab">
                                                     <input type="checkbox" id="chck1" class="input_drop">
@@ -363,8 +366,10 @@ include('bd.php');
 
                                                             <li><a href="#">статья 1 читать</a></li>
                                                             <li><a href="#">статья 2 читать</a></li>
-                                                            <li><a href="#">статья 3 читать</a></li>
-                                                            <li><a href="#">статья 4 читать</a></li>
+                                                            <li><a href="#">длинный сгибатель большого пальца стопы</a>
+                                                            </li>
+                                                            <li><a href="#">длинный сгибатель большого пальца стопы </a>
+                                                            </li>
                                                             <li><a href="#">статья 5 читать</a></li>
                                                             <li><a href="#">статья 6 читать</a></li>
                                                             <li><a href="#">статья 7 читать</a></li>
@@ -590,7 +595,7 @@ include('bd.php');
 
                             </div>
                         </div>
-                        <div class="col-xl-9 col-lg-8 order-1">
+                        <div class="col-xl-12 col-lg-12 order-1">
                             <div class="blog-detail-item">
                                 <div class="blog-content">
                                     <h2 class="title">Theme</h2>
@@ -625,22 +630,50 @@ include('bd.php');
                                         natus error sit voluptatem accusantiumy doloremque laudantium, totam rem
                                         aperiam,
                                     </p>
-                                    <div class="video-block container my-5">
-                                    
+                                    <div class="video my-5 grid-item container">
+                                        <video controls muted="muted" autoplay="autoplay" loop class="container-fluid">
+                                            <!-- <source src="./assets/video/Library - 846.mp4" type="video/webm"> -->
+                                            <source src="./assets/video/Library - 846.mp4" type="video/mp4">
+                                            <p>Your browser doesn't support HTML5 video. Here is
+                                                a <a href="./assets/video/Library - 846.mp4">link to the video</a>
+                                                instead.</p>
+                                        </video>
+                                        <video controls muted="muted" autoplay="autoplay" loop class="container-fluid">
+                                            <!-- <source src="./assets/video/Library - 846.mp4" type="video/webm"> -->
+                                            <source src="./assets/video/Library - 846.mp4" type="video/mp4">
+                                            <p>Your browser doesn't support HTML5 video. Here is
+                                                a <a href="./assets/video/Library - 846.mp4">link to the video</a>
+                                                instead.</p>
+                                        </video>
+                                        <video controls muted="muted" autoplay="autoplay" loop class="container-fluid">
+                                            <!-- <source src="./assets/video/Library - 846.mp4" type="video/webm"> -->
+                                            <source src="./assets/video/Library - 846.mp4" type="video/mp4">
+                                            <p>Your browser doesn't support HTML5 video. Here is
+                                                a <a href="./assets/video/Library - 846.mp4">link to the video</a>
+                                                instead.</p>
+                                        </video>
+                                        <video controls muted="muted" autoplay="autoplay" loop class="container-fluid">
+                                            <!-- <source src="./assets/video/Library - 846.mp4" type="video/webm"> -->
+                                            <source src="./assets/video/Library - 846.mp4" type="video/mp4">
+                                            <p>Your browser doesn't support HTML5 video. Here is
+                                                a <a href="./assets/video/Library - 846.mp4">link to the video</a>
+                                                instead.</p>
+                                        </video>
+
                                     </div>
+
                                     <div class="blog-banner row">
                                         <div class="col-lg-12">
                                             <div class="swiper-container product-slider">
                                                 <div class="swiper-wrapper">
                                                     <div class="swiper-slide product-item">
                                                         <div class="product-img">
-                                                            <a href="assets/images/posts/artroz1.jpeg" data-fancybox="gallery">
+                                                            <a href="assets/images/posts/artroz1.jpeg"
+                                                                data-fancybox="gallery">
                                                                 <img class="primary-img"
                                                                     src="assets/images/posts/artroz1.jpeg"
                                                                     alt="Product Images">
-                                                                <img class="secondary-img"
-                                                                    src="assets/images/posts/artroz2-300x203.jpeg"
-                                                                    alt="Product Images">
+                                                               
                                                             </a>
 
                                                         </div>
@@ -648,13 +681,12 @@ include('bd.php');
                                                     </div>
                                                     <div class="swiper-slide product-item">
                                                         <div class="product-img">
-                                                            <a href="assets/images/posts/astma3.jpeg" data-fancybox="gallery">
+                                                            <a href="assets/images/posts/astma3.jpeg"
+                                                                data-fancybox="gallery">
                                                                 <img class="primary-img"
                                                                     src="assets/images/posts/astma3.jpeg"
                                                                     alt="Product Images">
-                                                                <img class="secondary-img"
-                                                                    src="assets/images/posts/astma5diafragma-296x300.jpeg"
-                                                                    alt="Product Images">
+                                                               
                                                             </a>
 
                                                         </div>
@@ -662,26 +694,24 @@ include('bd.php');
                                                     </div>
                                                     <div class="swiper-slide product-item">
                                                         <div class="product-img">
-                                                            <a href="assets/images/posts/Emotsionalnye-bloki.jpeg" data-fancybox="gallery">
+                                                            <a href="assets/images/posts/Emotsionalnye-bloki.jpeg"
+                                                                data-fancybox="gallery">
                                                                 <img class="primary-img"
                                                                     src="assets/images/posts/Emotsionalnye-bloki.jpeg"
                                                                     alt="Product Images">
-                                                                <img class="secondary-img"
-                                                                    src="assets/images/posts/Disbalans-pozvonkov-178x300.jpeg"
-                                                                    alt="Product Images">
+                                                                
                                                             </a>
                                                         </div>
 
                                                     </div>
                                                     <div class="swiper-slide product-item">
                                                         <div class="product-img">
-                                                            <a href="assets/images/posts/ZHeludochno-kishechnyj-trakt.jpeg" data-fancybox="gallery">
+                                                            <a href="assets/images/posts/ZHeludochno-kishechnyj-trakt.jpeg"
+                                                                data-fancybox="gallery">
                                                                 <img class="primary-img"
                                                                     src="assets/images/posts/ZHeludochno-kishechnyj-trakt.jpeg"
                                                                     alt="Product Images">
-                                                                <img class="secondary-img"
-                                                                    src="assets/images/posts/Zaikanie.jpeg"
-                                                                    alt="Product Images">
+                                                               
                                                             </a>
 
                                                         </div>
