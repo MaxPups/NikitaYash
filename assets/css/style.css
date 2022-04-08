@@ -590,12 +590,16 @@ img {
 }
 
 .section-desc {
-  text-align: center;
+  text-align: left;
   line-height: 31px;
   color: black;
   margin-bottom: 55px;
 }
-
+@media(max-width: 768px){
+  .section-desc{
+    text-align: center;
+  }
+}
 /* ---Background Image--- */
 .background-img {
   position: relative;
@@ -1604,6 +1608,9 @@ blockquote p {
 /*  03. Header
 /*----------------------------------------*/
 /* ---Header Top--- */
+header{
+  border-bottom: 1px solid #0EA673;
+}
 .dropdown .btn-link {
   outline: 0;
   border: 0;
@@ -1820,12 +1827,16 @@ blockquote p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 10px;
+  font-size: 20px;
   /* font-size: 14px; */
   text-transform: uppercase;
   position: relative;
 }
-
+@media (max-width: 768px){
+  .main-nav > ul > li > a {
+ font-size: 16px;
+  }
+}
 .main-nav > ul > li > a:before {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2229,7 +2240,7 @@ blockquote p {
 .slide-content .offer {
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 47px;
+  font-size: 20px;
   line-height: 65px;
   display: block;
 }
@@ -2242,10 +2253,10 @@ blockquote p {
 }
 
 .slide-content .title {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 400;
-  font-size: 90px;
-  line-height: 94px;
+  font-size: 60px;
+  line-height: 70px;
   margin-bottom: 15px;
 }
 
@@ -2264,10 +2275,10 @@ blockquote p {
 }
 
 .slide-content .short-desc {
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-size: 22px;
   line-height: 28px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 @media (max-width: 1199px) {
@@ -2870,7 +2881,8 @@ blockquote p {
   li
   a {
   color: #ffffff;
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 20px;
   text-transform: uppercase;
   display: block;
   padding: 0 30px;
@@ -3617,6 +3629,9 @@ blockquote p {
 /*----------------------------------------*/
 /*  11. Footer
 /*----------------------------------------*/
+footer{
+  background: #0EA673;
+}
 .footer-widget-item .social-link ul li a {
   border-color: #000000;
   color: #000000;
