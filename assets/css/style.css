@@ -3385,7 +3385,9 @@ header {
 .modal-bg-dark .btn-close {
   background-image: url("../images/offcanvas/close-white.svg");
 }
-
+.btn-close{
+  position: fixed; top: 3rem; right: 3rem; z-index: 1000; color: #F1F5F7;font-size: 32px;
+}
 .modal-header {
   border-bottom: 0;
 }
