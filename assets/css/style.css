@@ -5096,6 +5096,9 @@ footer {
     padding-right: 0;
     padding-top: 30px;
   }
+  .blog-content{
+    text-align: center;
+  }
 }
 
 .blog-list-item .ratio {
