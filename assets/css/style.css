@@ -1834,7 +1834,7 @@ header {
 }
 @media (max-width: 768px) {
   .main-nav > ul > li > a {
-    font-size: 16px;
+    font-size: 11px;
   }
 }
 .main-nav > ul > li > a:before {
